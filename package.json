@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "node server.js",
-    "build": "node build-cards.js"
+    "build": "npm run build && node build-cards.js"
   },
   "keywords": [
     "Cisco",
